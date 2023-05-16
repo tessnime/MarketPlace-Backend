@@ -49,6 +49,8 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/**/auth",
                         "/**/sessionReteurn",
                         "/**/ProductResearch",
+                        "/**/ConfirmDelivery",
+
                         "/**/displayRunningEvents",
                         "/**/GetProductById",
                         "/**/GetProductsForEvent",

@@ -69,7 +69,6 @@ public class User implements Serializable {
     @JsonIgnore
     private List<Order> orders;
     @OneToMany(mappedBy = "seller", fetch = FetchType.EAGER)
-    @JsonIgnore
     private Set<Store> stores;
 
 
