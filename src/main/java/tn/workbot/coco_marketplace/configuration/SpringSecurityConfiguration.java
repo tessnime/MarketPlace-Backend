@@ -65,6 +65,8 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
                         "/**/changePass",
                         "/**/sessionReteurn",
                         "/**/ProductResearch",
+                        "/**/ConfirmDelivery",
+
                         "/**/displayRunningEvents",
                         "/**/GetProductById",
                         "/**/GetProductsForEvent",
